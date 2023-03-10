@@ -13,7 +13,7 @@ button.forEach((btn) => {
         } else if (btn.id === "de") {
             display.innerText = display.innerText.slice(0, -1);
         } else {
-            display.innerText = display.innerText + btn.id;
+            display.innerText += btn.id;
         }
     })
 })
